@@ -6,7 +6,7 @@
     //Comentario
     /*
     Bloco de Comentario
-    */
+    
 
     echo "Teste\n";
     echo "<br>";
@@ -35,4 +35,65 @@
     echo "<br>";
     echo $subtração;
     echo "<br>";
+
+    <   menor
+    >   maior
+    <=  menor igual 
+    >=  maior igual
+    === mesmo conteudo e mesmo tipo
+    
+
+
+    */
+    CONST NOMECOMPLETO = "JOÃO MARCOS TORRICHELLI MATTOS";
+    echo "<p>". NOMECOMPLETO. "<p>";
+    
+    $prova1 = 8;
+    $prova2 = 7.5;
+    $soma = $prova1 + $prova2;
+    $media = $soma / 2;
+
+    if($media >= 6){
+        echo "<br>"."Aprovado"."<br>";
+    } else{
+        echo "<br>"."Reprovado"."<br>";
+    }
+    
+    #Resto da divisão (MOD)
+    $resto = 4 % 2;
+
+    echo "<p>";
+    #Se for par ou impar
+
+    if($valor % 2 == 0){
+        echo $valor."par";
+    }else{
+        echo $valor."impar";
+    }
+
+    #Incremento e decremento 1 em 1
+    $cont = 0;
+    $cont++;
+    $cont--;
+
+    do{
+        #faça
+        $cont++;
+        echo $cont."<br>";
+    }while($cont < 10);
+
+    while($cont < 10){
+        #faça
+    }
+
+    for($i = 0; $i <= 5197; $i++){
+        if($i % 2 == 0){
+            echo " ".$i." é par |";
+        }else{
+            echo " ".$i." é impar |";
+        }
+    }
+
+
+
 ?>
