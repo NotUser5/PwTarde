@@ -59,17 +59,36 @@
         echo "<br>"."Reprovado"."<br>";
     }
     
+    # != Diferente
+    # == Igual
+    # > Maior
+    # < Menor
+    # >= Maior e igual
+    # <= Menor e igual
+    # === mesmo conteudo e mesmo tipo
+
+    $valor = 10;
+
+    #Valor + Valor + 5;
+    $valor += 5;
+    $valor -= 7;
+    $valor *= 2;
+    $valor /= 1;
+
+    #incremento para laço de repetição
+    $valor += 1;
+
     #Resto da divisão (MOD)
     $resto = 4 % 2;
 
     echo "<p>";
-    #Se for par ou impar
-
+    //Se for par ou impar
     if($valor % 2 == 0){
-        echo $valor."par";
+        echo "par";
     }else{
-        echo $valor."impar";
+        echo "impar";
     }
+    echo "</p>";
 
     #Incremento e decremento 1 em 1
     $cont = 0;
