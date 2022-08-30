@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="style.css">
 <link rel="script" href="script.js">
-<a href="array.php">Array</a>
-<br>
+<a href="array.php">Array</a>&nbsp
 <a href="function.php">Função</a>
 
 <?php
