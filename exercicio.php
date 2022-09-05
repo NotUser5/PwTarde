@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+<a href="index.php">Voltar</a><br>
 <?php
     //Crie uma variável e atribua um array com os seguintes itens : 20, 15, 30, 17, 8
     $ex1 = array(20, 15, 30, 17, 8);

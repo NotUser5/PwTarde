@@ -4,7 +4,3 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
-a {
-    border: solid 2px red;
-    border-radius: 5px;
-}

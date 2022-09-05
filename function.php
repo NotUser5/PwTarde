@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css">
+<a href="index.php">Voltar</a><br>
 <?php 
 function QuebraLinha()
 {
