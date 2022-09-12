@@ -70,7 +70,7 @@
             $impar++;
         }
     }
-    echo "<br>Positivos: $positivos Negativos: $negativos Pares: $par Impares: $impar<br>";
+    echo "<br>Positivos: $positivos<br> Negativos: $negativos<br> Pares: $par<br> Impares: $impar<br>";
 
     //Calcule a média do array do exercício 1
     echo "<br>".soma($ex1)/8;
