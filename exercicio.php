@@ -74,4 +74,5 @@
 
     //Calcule a média do array do exercício 1
     echo "<br>".soma($ex1)/8;
+    
 ?>
