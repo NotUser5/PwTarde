@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="style.css">
 
+<a href="index.php">Voltar</a>
 <!-- <a href="array.php">Array</a>&nbsp
 <a href="function.php">Função</a>&nbsp
 <a href="exercicio.php">Exercício 05/09/22</a> -->
