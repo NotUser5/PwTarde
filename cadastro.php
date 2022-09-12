@@ -1,5 +1,3 @@
 <?php include "./cabecalho.php";?>
-
-    <h1>Bem vindo</h1>
-    
+    <h1>Cadastro de Clientes</h1>
 <?php include "./rodape.php";?>

@@ -1,6 +1,49 @@
-body {
-    background-color: rgb(24, 24, 24);
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body, li{
+    /* background-color: black; */
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 'Open Sans';
+}
+a{
+    text-decoration: none;
+}
+#container{
+    display: grid;
+    grid-template-rows: 17vh 83vh;
+    grid-template-areas: 
+        'cabecalho'
+        'conteudo'
+    ;
+}
+#cabecalho{
+    grid-area: cabecalho;
+    background-color: #212121;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#conteudo{
+    grid-area: conteudo;
+    background-color: #ccc;
+}
+img{
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    /* background-color: red; */
+    padding: 10px;
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    /* background-color: green; */
     color: white;
 }
