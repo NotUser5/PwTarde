@@ -1,13 +1,13 @@
 <?php include "./cabecalho.php"; ?>
 
-<h1>Lista de Clientes</h1>
+<h1>Lista de Usuários</h1>
 
 <div class="card mt-4 mb-4 text-bg-dark">
-    <div class="card-header">Clientes</div>
+    <div class="card-header">Usuários</div>
     <div class="card-body">
         <div class="row">
             <div class="col-2">
-                <button class="btn btn-success">Novo Cliente</button>
+                <button class="btn btn-success">Novo Usuário</button>
             </div>
             <div class="col-2">
                 <select name="opcao" class="form-control">

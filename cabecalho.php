@@ -1,30 +1,57 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Home Page</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/bootstrap.min.css"/>
+    <style>
+        /* div{
+            border: 1px solid red;
+        } */
+    </style>
 </head>
 <body>
-    <div id="container"> <!--Id(identificador) é unico, class pode repetir-->
-        <header id="cabecalho">
-            <div id="logo">
-                <img src="./logo2.png" width="150" height="150">
-            </div>
-            <nav>
-                <ul class="menu">
-                    <li> <a href="./index.php">Home</a> </li>
-                    <li> <a href="./produto.php">Produtos</a> </li>
-                    <li> <a href="./clientes.php">Clientes</a> </li>
-                    <li> <a href="./cadastro.php">Cadastro</a> </li>
-                    <li> <a href="./sobre.php">Sobre</a> </li>
-                    <li> <a href="./contato.php">Contatos</a> </li>
-                    <li> <a href="./portfolio.php">Portfólio</a> </li>
-                    <!-- <li> <a href="./exercicio.php">Ex1</a> </li>
-                    <li> <a href="./array.php">Array</a> </li>
-                    <li> <a href="./start.php">Aula 1</a> </li>
-                    <li> <a href="./function.php">Função</a> </li> -->
-                    </ul>
-            </nav>
-        </header>
-        <main id="conteudo">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand">
+      <img src="./assets/logo2.png" alt="Bootstrap" width="60" height="60">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./usuarios.php">Usuários</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cadastro
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Cadastrar Usuário</a></li>
+            <li><a class="dropdown-item" href="#">Cadastrar Clientes</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Cadastrar Produtos</a></li>
+          </ul>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="./produtos.php">Produtos</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./clientes.php">Clientes</a>
+        </li>
+      </ul>
+      <!-- <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+    </div>
+  </div>
+</nav>
+<div class="container">

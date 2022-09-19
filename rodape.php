@@ -1,5 +1,4 @@
-        </main>
-    </div>
-    Desenvolvido por João T.
-    </body>
+</div>
+<script src="./assets/bootstrap.bundle.min.js"></script>
+</body>
 </html>
