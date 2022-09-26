@@ -9,6 +9,9 @@
         /* div{
             border: 1px solid red;
         } */
+        body{
+          background-color: #517A7A;
+        }
     </style>
 </head>
 <body>
@@ -45,6 +48,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="./clientes.php">Clientes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./diciplinas.php">Diciplinas</a>
         </li>
       </ul>
       <!-- <form class="d-flex" role="search">
